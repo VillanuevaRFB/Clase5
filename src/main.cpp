@@ -24,6 +24,7 @@ int main (void){
     }
 }*/
 
+//ejercicio 3
 void config_IE0(void){
     EIMSK|=(1<<INT0);
     EICRA|=(1<<ISC01);
